@@ -61,10 +61,14 @@ Open `http://localhost:3000`.
 
 ## Deploy plan
 
-1. Deploy `apps/web` to Vercel.
+1. Deploy `web` (top-level folder) to Vercel for the simplest setup.
 2. Deploy `services/quant-api` to Render/Railway/Fly/Cloud Run.
 3. Set `NEXT_PUBLIC_API_BASE_URL` in Vercel to quant-api URL.
 4. Keep `HY_OAS.csv` local/static in quant-api environment for backtest validation.
+
+### Vercel root directory
+
+- Set Project Root Directory to `web`.
 
 ## Next integration tasks
 
