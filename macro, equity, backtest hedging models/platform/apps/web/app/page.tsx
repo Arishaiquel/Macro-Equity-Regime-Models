@@ -205,7 +205,7 @@ export default function HomePage() {
       <header className="mb-8">
         <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">Research Tools</p>
         <h1 className="text-3xl font-bold text-ink">Vercel Architecture Starter</h1>
-        <p className="mt-2 text-sm text-slate-600">Live APIs are now wired across all core model functions.</p>
+        <p className="mt-2 text-sm text-slate-600">Live APIs are now wired across all core model functions and ready for deployment.</p>
       </header>
 
       <section className="mb-8 grid gap-3 md:grid-cols-2 lg:grid-cols-4">
