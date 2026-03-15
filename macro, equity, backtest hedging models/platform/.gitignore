@@ -1,0 +1,11 @@
+# Web
+apps/web/node_modules
+apps/web/.next
+apps/web/.env.local
+
+# Python
+**/.venv
+**/__pycache__
+
+# Local artifacts
+*.log
